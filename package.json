@@ -69,10 +69,6 @@
     "typescript": "5.5.4",
     "typescript-transform-paths": "3.4.7"
   },
-  "peerDependencies": {
-    "@affixapi/api": "^1.1.1",
-    "@affixapi/aws-lib": "^1.0.1"
-  },
   "overrides": {
     "debug": "^4.3.1",
     "semver": "^7.5.2"

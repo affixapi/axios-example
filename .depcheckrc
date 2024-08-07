@@ -1,5 +1,4 @@
 ignores: [
-  '@affixapi/config-rc',
   '@commitlint/cli',
   '@commitlint/config-angular',
   '@fixtures/*',

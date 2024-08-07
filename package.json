@@ -36,7 +36,7 @@
     "http-proxy-agent": "7.0.2",
     "https-proxy-agent": "7.0.5",
     "tough-cookie": "4.1.4",
-    "user-agents": "1.1.287"
+    "user-agents": "1.1.288"
   },
   "devDependencies": {
     "@tsconfig/node20": "20.1.4",

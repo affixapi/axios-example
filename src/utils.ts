@@ -18,7 +18,7 @@ export type ResponseTypes =
   | Record<string, unknown>
   | Record<string, unknown>[];
 
-const proxyUrl = 'https://[[[proxy-url-here]]]@pr.oxylabs.io:7777';
+const proxyUrl = `https://${process.env.PROXY_CREDS}@pr.oxylabs.io:7777`;
 
 const proxyConfig = (jar: CookieJar) => ({
   httpAgent: new HttpProxyCookieAgent(proxyUrl, {

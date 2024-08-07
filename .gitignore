@@ -1,0 +1,10 @@
+dist/
+cdk.out/
+target/
+coverage/
+
+!test/test-fixtures/**/*
+!test/test-fixtures/anti-captcha-generic-img/__playbacks__/*
+!test/test-fixtures/two-captcha-generic-img/__playbacks__/*
+
+.DS_Store

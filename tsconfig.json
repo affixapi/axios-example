@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 20",
+  "_version": "20.1.4",
+  "extends": "@tsconfig/node20/tsconfig.json",
+
+  "compilerOptions": {
+    "module": "ES2022",
+    "moduleResolution": "node",
+
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2022",
+
+    "outDir": "dist",
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "strict": true,
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+      "@test/*": [
+        "./test/*"
+      ],
+      "@fixtures/*": [
+        "./src/fixtures/*"
+      ],
+      "@dev-resources/*": [
+        "./dev-resources/*"
+      ]
+    },
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "jest",
+      "node"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts",
+    ".eslintrc.cjs",
+    "dev-resources/**/*.ts",
+    "dev-resources/**/*.cjs",
+    "jest.config.ts",
+    "jest.setup.ts"
+  ]
+}

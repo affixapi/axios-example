@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@semantic-release/changelog", {
+      "changelogFile": "CHANGELOG.md"
+    }],
+    ["@semantic-release/exec", {
+      "verifyConditionsCmd": "make ci",
+    }],
+    ["@semantic-release/github", {
+      assets: "dist/*"
+    }]
+  ]
+}

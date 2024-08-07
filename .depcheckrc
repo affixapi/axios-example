@@ -1,0 +1,23 @@
+ignores: [
+  '@affixapi/config-rc',
+  '@commitlint/cli',
+  '@commitlint/config-angular',
+  '@fixtures/*',
+  '@jest/globals',
+  '@src/*',
+  '@test/*',
+  '@types/request-promise',
+  '@types/nodemailer',
+
+  'aws-lambda',
+  'depcheck',
+  'eslint-import-resolver-typescript',
+  'husky',
+  'nodemailer',
+  'ts-node',
+  'axios-cookiejar-support',
+  '@types/faker',
+  'faker',
+  'eslint-plugin-node',
+  '@types/node',
+]

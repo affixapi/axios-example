@@ -28,7 +28,7 @@ jobs:
       - name: Set up NPM authentication
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.ACTIONS_TOKEN }}" >> ~/.npmrc
 
-      - uses: cycjimmy/semantic-release-action@v4.1.0
+      - uses: cycjimmy/semantic-release-action@v4.1.1
         with:
           semantic_version: 18
           extra_plugins: |

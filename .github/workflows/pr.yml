@@ -39,7 +39,7 @@ jobs:
       - name: Set up NPM authentication
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.ACTIONS_TOKEN }}" >> ~/.npmrc
 
-      - uses: cycjimmy/semantic-release-action@v4.2.1
+      - uses: cycjimmy/semantic-release-action@v4.2.2
         id: semantic # need an `id` for output variables
         with:
           dry_run: true
